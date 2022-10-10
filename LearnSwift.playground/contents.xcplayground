@@ -6,5 +6,7 @@
         <page name='Live View Example'/>
         <page name='Data Type Example'/>
         <page name='Operator Expression Example'/>
+        <page name='Control Flow Example'/>
+        <page name='Switch Example'/>
     </pages>
 </playground>

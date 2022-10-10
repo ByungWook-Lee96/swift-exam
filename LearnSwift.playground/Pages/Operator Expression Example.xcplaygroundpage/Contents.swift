@@ -1,4 +1,3 @@
-
 import Foundation
 
 // 표현식 구문
@@ -39,4 +38,40 @@ print("Largest number is \(a > b ? a : b)")
 
 
 // 비트 연산자
+// NOT 비트 연산
+let y1 = 3
+let z = ~y1
+print("Result is \(z)")
 
+// AND 비트 연산
+let a1 = 171
+let b1 = 3
+let c1 = a1 & b1 // a1 &= b1
+
+print("Result \(c1)")
+
+// OR 비트 연산
+let a2 = 171
+let b2 = 3
+let c2 = a2 | b2 // a2 |= b2
+
+print("Result is \(c2)")
+
+// XOR 비트 연산
+let a3 = 171
+let b3 = 3
+let c3 = a3 ^ b3 // a3 ^= b3
+
+print("Result is \(c3)")
+
+// 왼쪽 시프트 비트 연산
+let a4 = 171
+let c4 = a4 << 1 // a4 <<== 1
+
+print("Result is \(c4)")
+
+// 오른쪽 시프트 비트 연산
+let a5 = 171
+let c5 = a5 >> 1 // a5 >>== 1
+
+print("Result is \(c5)")
