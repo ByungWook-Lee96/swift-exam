@@ -8,5 +8,6 @@
         <page name='Operator Expression Example'/>
         <page name='Control Flow Example'/>
         <page name='Switch Example'/>
+        <page name='function Example'/>
     </pages>
 </playground>
