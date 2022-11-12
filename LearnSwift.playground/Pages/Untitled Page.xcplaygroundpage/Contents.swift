@@ -23,3 +23,6 @@ for index in 1...20 {
  * 나누는 부분
  * 나누는 부분2
  */
+
+
+// playground 실행 단축키 command + shift + enter

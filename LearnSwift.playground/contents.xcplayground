@@ -11,5 +11,7 @@
         <page name='Class Example'/>
         <page name='Function Example'/>
         <page name='Inheritance Example'/>
+        <page name='Struct Example'/>
+        <page name='Property Wrapper Example'/>
     </pages>
 </playground>

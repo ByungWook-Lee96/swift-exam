@@ -92,7 +92,7 @@ if x == 10 {
 print()
 
 // guard 구문 불리언 표현식을 포함, true 일 때만 guard 구문 다음에 위치한 코드가 실행되는 것
-// gurad 구문 안에서 사용된 number qustnsms guard 구문 밖에서도 유효함
+// gurad 구문 안에서 사용된 number 변수 guard 구문 밖에서도 유효함
 func multiplyByTen(value: Int?) {
     guard let number = value, number < 10 else {
         print("Number is too high")
@@ -104,4 +104,3 @@ func multiplyByTen(value: Int?) {
 }
 
 multiplyByTen(value: 5)
-
