@@ -13,5 +13,8 @@
         <page name='Inheritance Example'/>
         <page name='Struct Example'/>
         <page name='Property Wrapper Example'/>
+        <page name='Array Example'/>
+        <page name='Dictionary Example'/>
+        <page name='ErrorType Example'/>
     </pages>
 </playground>
