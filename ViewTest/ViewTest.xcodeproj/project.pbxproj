@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0742879A292B6E12005FA5FC /* ViewTest20_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07428799292B6E12005FA5FC /* ViewTest20_2.swift */; };
+		0742879C292B7379005FA5FC /* ViewTest21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742879B292B7379005FA5FC /* ViewTest21.swift */; };
 		C2DC9EAE2925F07700D3B30D /* ViewTest20.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DC9EAD2925F07700D3B30D /* ViewTest20.swift */; };
 		C2DC9EB02925FADA00D3B30D /* ViewTest20_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DC9EAF2925FADA00D3B30D /* ViewTest20_1.swift */; };
 		C2E7B20229236E520032593D /* ViewTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7B20129236E520032593D /* ViewTestApp.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07428799292B6E12005FA5FC /* ViewTest20_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTest20_2.swift; sourceTree = "<group>"; };
+		0742879B292B7379005FA5FC /* ViewTest21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTest21.swift; sourceTree = "<group>"; };
 		C2DC9EAD2925F07700D3B30D /* ViewTest20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewTest20.swift; path = ../ViewTest20.swift; sourceTree = "<group>"; };
 		C2DC9EAF2925FADA00D3B30D /* ViewTest20_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTest20_1.swift; sourceTree = "<group>"; };
 		C2E7B1FE29236E520032593D /* ViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +82,8 @@
 		C2E7B1F529236E510032593D = {
 			isa = PBXGroup;
 			children = (
+				07428799292B6E12005FA5FC /* ViewTest20_2.swift */,
+				0742879B292B7379005FA5FC /* ViewTest21.swift */,
 				C2DC9EAF2925FADA00D3B30D /* ViewTest20_1.swift */,
 				C2DC9EAD2925F07700D3B30D /* ViewTest20.swift */,
 				C2E7B20029236E520032593D /* ViewTest */,
@@ -263,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0742879A292B6E12005FA5FC /* ViewTest20_2.swift in Sources */,
+				0742879C292B7379005FA5FC /* ViewTest21.swift in Sources */,
 				C2DC9EB02925FADA00D3B30D /* ViewTest20_1.swift in Sources */,
 				C2E7B20429236E520032593D /* ContentView.swift in Sources */,
 				C2DC9EAE2925F07700D3B30D /* ViewTest20.swift in Sources */,
