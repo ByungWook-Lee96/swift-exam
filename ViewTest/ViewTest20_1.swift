@@ -47,10 +47,10 @@ struct ViewTest20_1: View {
             .lineLimit(1)  // 1줄로 출력되게 고정(공간 부족 시 텍스트 잘려서 출력됨(layoutPrioty 사용)
             Text("Hello World People")
                 .font(.largeTitle)
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)  // 글자가 길어져도 무한대로 커버 가능한 틀(단, text 영역 전부를 커버함..)
+//                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)  // 글자가 길어져도 무한대로 커버 가능한 틀(단, text 영역 전부를 커버함..)
                 .border(Color.black, width: 5)  // 경계선
 //                .frame(width: 100, height: 100, alignment: .center)  // 틀을 만들 수 있음 -> 글자가 길어지면 잘리는 현상 발생
-//                .frame(minWidth: 100, maxWidth: 300, minHeight: 100, maxHeight: 100, alignment: .center)  // 글자가 길어져도 300까지는 커버 가능한 틀
+                .frame(minWidth: 100, maxWidth: 300, minHeight: 100, maxHeight: 300, alignment: .center)  // 글자가 길어져도 300까지는 커버 가능한 틀
                 .edgesIgnoringSafeArea(.all)  // frame이 가지고 있는 안전 영역을 벗어나는 부분의 처리가 필요할때 사용(ex. 노치 영역)
                 
         }

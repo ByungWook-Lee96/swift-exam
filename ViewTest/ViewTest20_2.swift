@@ -13,12 +13,12 @@ struct ViewTest20_2: View {
         GeometryReader{ geometry in
             VStack{
                 Text("Hello World, how are you?")
-                    .font(.largeTitle)
+                    .font(.title)
                     .frame(width: geometry.size.width / 2,
                            height: (geometry.size.height / 4) * 2)
                     .border(Color.black)
                 Text("Goodbye World")
-                    .font(.largeTitle)
+                    .font(.title)
                     .frame(width: geometry.size.width / 3,
                            height: geometry.size.height / 4)
                     .border(Color.black)
