@@ -18,7 +18,8 @@ struct ToDoItem : Identifiable{
 var listData: [ToDoItem] = [
         ToDoItem(task: "음식물쓰레기 버리기", imageName: "trash.fill"),
         ToDoItem(task: "SwiftUI 공부하기", imageName: "book.fill"),
-        ToDoItem(task: "12시에 꿀잠자기", imageName: "bed.double.fill")
+        ToDoItem(task: "12시에 꿀잠자기", imageName: "bed.double.fill"),
+        ToDoItem(task: "쇼핑하기", imageName: "bag.fill")
 ]
 
 struct ContentView: View {
