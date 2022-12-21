@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+// 새로운 차 추가 화면
 struct AddNewCar: View {
     
     @ObservedObject var carStore: CarStore
