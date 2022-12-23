@@ -29,7 +29,9 @@ class ViewController: UIViewController {
         let random = Int(arc4random_uniform(5))  // 0 ~ 4 사이의 난수를 만들어 줌
         let quote = quotes[random]
         self.quoteLabel.text = quote.contents
+        self.quoteLabel.textColor = .black
         self.nameLabel.text = quote.name
+        self.nameLabel.textColor = .black
     }
 }
 
