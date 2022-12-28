@@ -24,7 +24,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
     @IBAction func tapQuoteGeneratorButton(_ sender: Any) {
         let random = Int(arc4random_uniform(5))  // 0 ~ 4 사이의 난수를 만들어 줌
         let quote = quotes[random]
